@@ -48,7 +48,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="w-full flex items-center justify-center absolute bottom-3">
+    <div className="w-full flex items-center justify-center absolute bottom-0 mb-3">
       <div className="w-[95%] h-[10vh] self-center bg-violet-600 rounded-3xl z-10 relative ">
         <div className="flex w-full h-full justify-around items-center ">
           {navData.map((el) => (

@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
 
   const navVariants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1 }
+    visible: { opacity: 1 },
   };
 
   return (
@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
       {children}
 
       <AnimatePresence>
-        {location.pathname !== '/' && (
+        {location.pathname !== "/" && (
           <motion.div
             initial="hidden"
             animate="visible"

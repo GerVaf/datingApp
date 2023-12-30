@@ -2,7 +2,7 @@ import React from 'react'
 
 const LikeList = () => {
   return (
-    <div>LikeList</div>
+    <div className='h-[100vh]'>LikeList</div>
   )
 }
 
